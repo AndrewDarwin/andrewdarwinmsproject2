@@ -56,3 +56,28 @@ body, html {
    font-family: "spectral", Sans-Serif;
    
 }
+ 
+/* ABOUT */
+/* I used https://www.w3schools.com/howto/howto_css_hero_image.asp with assistance in creating the About page code */
+
+.photo-about {
+  
+  background-image: url("../images/ushuaia.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.about-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 550;
+   font-family: "spectral", Sans-Serif;
+   font-size: 15px
+}
