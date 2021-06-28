@@ -94,4 +94,302 @@
 </div>
 </div>           
 
+<!-- THINGS TO DO -->
+<!-- I was inspired by, and used https://henriqueperoni.github.io/CI-MS2-Magic-Island/ Things To Do Section to assist me in creating the code below -->
+
+    <section id="thingstodo">
+      <div class="container-things-to-do">
+        <div class="container-btns">
+          <div class="place-option">
+            <div class="places beach">
+              <button
+                class="btn-places btn-beach"
+                onclick="chooseCategory('chose-beach')"
+              ></button>
+              <h3>Beaches</h3>
+            </div>
+            <div class="places nightclub">
+              <button
+                class="btn-places btn-nightclubs"
+                onclick="chooseCategory('chose-nightclub')"
+              ></button>
+              <h3>Nightclubs</h3>
+            </div>
+            <div class="places activities">
+              <button
+                class="btn-places btn-activities"
+                onclick="chooseCategory('chose-activity')"
+              ></button>
+              <h3>Activities</h3>
+            </div>
+          </div>
+          <div id="chose-beach" class="choices">
+            <button
+              class="choices-btn"
+              onclick="choosePlace('cala-bassa')"
+              data-lat="38.967778"
+              data-lng="1.239722"
+            >
+              Cala Bassa
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('portinatx')"
+              data-lat="39.112355"
+              data-lng="1.517744"
+            >
+              Portinatx
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('cala-llenya')"
+              data-lat="39.016667"
+              data-lng="1.593889"
+            >
+              Cala Llenya
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('talamanca')"
+              data-lat="38.916286"
+              data-lng="1.453882"
+            >
+              Talamanca
+            </button>
+          </div>
+          <div id="chose-nightclub" class="choices">
+            <button
+              class="choices-btn"
+              onclick="choosePlace('privilege')"
+              data-lat="38.957778"
+              data-lng="1.408056"
+            >
+              Privilege
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('amnesia')"
+              data-lat="38.947778"
+              data-lng="1.408056"
+            >
+              Amnesia
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('pacha')"
+              data-lat="38.918442"
+              data-lng="1.443312"
+            >
+              Pacha
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('ushuaia')"
+              data-lat="38.8843"
+              data-lng="1.4050"
+            >
+              Ushuaïa
+            </button>
+          </div>
+          <div id="chose-activity" class="choices">
+            <button
+              class="choices-btn"
+              onclick="choosePlace('sunsets')"
+              data-lat="38.980556"
+              data-lng="1.296111"
+            >
+              Sunsets
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('hiking')"
+              data-lat="39.0345"
+              data-lng="1.5657"
+            >
+              Hiking
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('boattrips')"
+              data-lat="38.9125"
+              data-lng="1.435278"
+            >
+              Boat trips
+            </button>
+            <button
+              class="choices-btn"
+              onclick="choosePlace('formentera')"
+              data-lat="38.751389"
+              data-lng="1.433333"
+            >
+              Formentera
+            </button>
+          </div>
+        </div>
+        <div class="container-tips-map">
+          <div class="info active-img">
+            <div class="info-img">
+              <img
+                src="assets/images/sunsets2.jpg"
+                alt="An Ibiza sunset"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Ibiza has everything you need, from beautiful beaches, the world's best nightclubs, unforgettable sunsets, guided walks, and boat trips to name but a few. We are here to help you find whatever you need, please check out the various things to do, and contact us on the contact form at the bottom of the page with any requests!
+              </p>
+            </div>
+          </div>
+          <div id="cala-bassa" class="info info-beach">
+            <div class="info-img">
+              <img
+                src="assets/images/calabassa.jpg"
+                alt="Cala Bassa beach"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Cala Bassa beach on the West coast of Ibiza offers crystal clear blue waters with lovely white sand, whilst there are pine trees that run along the back of the beach offering a nice shade from the blazing sun. Accessible via a 15-30 minute ferry ride from the San Antonio front near the Egg.
+              </p>
+            </div>
+          </div>
+          <div id="portinatx" class="info info-beach">
+            <div class="info-img">
+              <img
+                src="assets/images/portinatx.jpg"
+                alt="Portinatx beach"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                The small and quiet resort of Portinatx in the North of the island offers three beautiful beaches - S'Arenal Gros; little S'Arenal Petit and Playa Porto Beach, all with amazing clear waters and white sand. 
+              </p>
+            </div>
+          </div>
+          <div id="cala-llenya" class="info info-beach">
+            <div class="info-img">
+              <img
+                src="assets/images/calallenya.jpg"
+                alt="Cala Llenya beach"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                On the East of the island is the beautiful beach of Cala Llenya, which is surrounded by pine trees and excellent turquoise waters. It's a popular beach with families and holiday makers but is never too busy, meaning you'll get an area to yourself even during the peak summers. 
+              </p>
+            </div>
+          </div>
+          <div id="talamanca" class="info info-beach">
+            <div class="info-img">
+              <img
+                src="assets/images/talamanca2.jpg"
+                alt="Talamanca beach"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Talamanca beach, near Ibiza Town, has a wooden walkway running the length of the beach offering great walks and views. There’s also a good choice of bars and restaurants along the way to stop for some tapas and a beer! 
+              </p>
+            </div>
+          </div>
+          <div id="privilege" class="info info-nightclub">
+            <div class="info-img">
+              <img
+                src="assets/images/privilege.jpg"
+                alt="Privilege nightclub"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Privilege is situated half way between Ibiza Town and San Antonio on the main road, near San Rafael. Privilege is massive - holding 10,000 people it is officially the biggest club in the world. The venue is stunning, set in a huge dome with various gardens, and back rooms. The setting for the main room is a grand DJ stage, with Privilege’s world famous cinema screen behind the DJ booth blurring out colourful visuals alongside the DJ sets. 
+              </p>
+            </div>
+          </div>
+          <div id="amnesia" class="info info-nightclub">
+            <div class="info-img">
+              <img
+                src="assets/images/amnesia.jpg"
+                alt="Amnesia nightclub"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Amnesia (located near Privilege) hosts some of the biggest and most longstanding events on the island. In the main room the DJs control the music action from the booth way up high to the masses below, complete with large stacks of loud, powerful speakers and massive ice cannons which regularly blows out cold air to keep the clubbers cool throughout the night. The Terrace, in itself the size of a main room, offers a differing style of music next door. 
+              </p>
+            </div>
+          </div>
+          <div id="pacha" class="info info-nightclub">
+            <div class="info-img">
+              <img src="assets/images/pacha.jpg" alt="Pacha nightclub" />
+            </div>
+            <div class="info-text">
+              <p>
+                Over in Ibiza town is one of the most gorgeous clubs in the world – Pacha. It was the first club built on the island in 1973, and is now a massive worldwide clubbing brand with venues in some of the best capital cities. Pacha Ibiza has a fantastic layout and decor, whilst the roof terrace offers beautiful views of the sun coming up over Ibiza Town.  
+              </p>
+            </div>
+          </div>
+          <div id="ushuaia" class="info info-nightclub">
+            <div class="info-img">
+              <img src="assets/images/ushuaia2.jpg" alt="Ushuaïa nightclub" />
+            </div>
+            <div class="info-text">
+              <p>
+                Ushuaïa is an outside hotel and club venue in playa d'en Bossa which has beautiful surroundings of palm trees, people dancing anywhere and everywhere, lasers and ice cannons. Offering amazing production, visuals and line ups, complete with the warm Ibiza sun beating down, and planes flying in overhead to the nearby airport, and you have the best outside clubbing experience in the world.
+              </p>
+            </div>
+          </div>
+          <div id="sunsets" class="info info-activities">
+            <div class="info-img">
+              <img
+                src="assets/images/sunsets.jpg"
+                alt="Ibiza sunset"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Ibiza’s beautiful sunsets are simply legendary. The West coast receives the best views, on the sunset strip in San Antonio. You can watch on the rocks, or head to one of the nearby bars or restaurants. Café Del Mar is the most famous of these as it is the original Ibiza sunset café.
+              </p>
+            </div>
+          </div>
+          <div id="hiking" class="info info-activities">
+            <div class="info-img">
+              <img src="assets/images/hiking.jpg" alt="Hiking" />
+            </div>
+            <div class="info-text">
+              <p>
+                There are some great walking and hiking opportunities on the island. With amazing beautiful coastlines, and beaches, there’s around 250KM to explore! We recommend joining Walking Ibiza, who organise walking tours around the island, whether for leisurely strolls, or more experiences hikes in the hills! 
+              </p>
+            </div>
+          </div>
+          <div id="boattrips" class="info info-activities">
+            <div class="info-img">
+              <img
+                src="assets/images/boattrips.jpg"
+                alt="Boat trips"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                Whether it's a party boat, or a more relaxed trip around the island's waters, you'll be able to find lots of different boat trips on the island. Whether it be a guided tour around the whole island, or simply getting from one part of town to the next, there’s an array of boat trips to suit every need. 
+              </p>
+            </div>
+          </div>
+          <div id="formentera" class="info info-activities">
+            <div class="info-img">
+              <img
+                src="assets/images/formentera.jpg"
+                alt="Formentera"
+              />
+            </div>
+            <div class="info-text">
+              <p>
+                It is well worth making the trip to the idyllic island of Formentera, just South of Ibiza. You'll be greeted with pristine white beaches and crystal clear blue waters – the beautiful Illetes beach was recently voted the 3rd best beach in the world. We’d more than recommend a day spent on Formentera for its amazing beaches and stunning waters, laidback atmosphere, local charm, bars and restaurants. 
+              </p>
+            </div>
+          </div>
+          <div id="map"></div>
+        </div>
+      </div>
+    </section>
+
 
