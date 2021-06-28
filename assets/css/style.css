@@ -1,0 +1,21 @@
+/* HEADER and NAV */
+/* I used https://stackoverflow.com/questions/34527775/how-to-increase-bootstrap-navbar-brand-font-size/34528795 to assist with the below code */
+
+.navbar-brand {
+    font-size: xx-large;
+    font-family: "spectral", Sans-Serif;
+}
+
+a.nav-link{
+    font-size: larger;
+    padding-left: 15px !important;
+    color: white !important;
+    font-family: "spectral", Sans-Serif;
+    
+}
+
+/* I used https://www.w3schools.com/css/css3_colors.asp for assistance with color code */
+
+.bg-dark {
+    background-color: rgb(0, 0, 255) !important;
+}
