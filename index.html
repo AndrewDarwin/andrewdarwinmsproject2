@@ -391,5 +391,53 @@
         </div>
       </div>
     </section>
+<!-- CONTACT ->
+  
+<!-- I used the bootstrap grid to assist me in structuring the code below -->
+
+<div class="container" id="contact">
+    <div class="row contact">
+        <div class="col-2"></div>
+        <div class="col-12 col-md-8">
+        
+            <h1 class="col-12 contact-heading">Contact</h1>
+            
+<!-- I used the bootstrap forms layout to assist me in structuring the code below -->
+
+            <form class="needs-validation">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <label for="firstName">Full name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <div class="invalid-feedback">
+                        Please enter your full name.
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="email">Email </label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required="">
+                        <div class="invalid-feedback">
+                            Please enter your email. 
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <label for="message">Message </label>
+                        <textarea class="form-control" id="message" required=""> </textarea>
+                        <div class="invalid-feedback">
+                            Please enter your message.
+                        </div>      
+                    </div>
+                
+                     <hr class="mb-4">
+                    <div class="col-6 col-md-3">
+                        <br>
+                        <button class="btn btn-primary btn btn-dark" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
 
 
