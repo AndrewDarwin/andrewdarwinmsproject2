@@ -81,3 +81,230 @@ body, html {
    font-family: "spectral", Sans-Serif;
    font-size: 15px
 }
+
+/*- THINGS TO DO -*/
+/*- I was inspired by, and used https://henriqueperoni.github.io/CI-MS2-Magic-Island/ Things To Do Section to assist me in creating the code below -*/
+
+.container-things-to-do {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.container-btns {
+  background: #FFFFFF;
+  width: 100%;
+}
+
+.place-option,
+.choices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+
+.places {
+  margin: 10px;
+}
+
+.btn-places {
+  
+  height: 350px;
+  width: 350px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-places:active,
+.choices-btn:active {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.btn-places:focus {
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-beach {
+  background: url("../images/photo-beaches.jpg") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.btn-nightclubs {
+  background: url("../images/photo-clubs.jpg") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.btn-activities {
+  background: url("../images/photo-activities.jpg") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.places h3 {
+  text-align: center;
+  margin-top: 5px;
+  font-family: "spectral", Sans-Serif;
+  font-size: 1.2rem;
+}
+
+.choices {
+  display: none;
+}
+
+.choices-btn {
+  height: 70px;
+  width: 190px;
+  background: #0000FF;
+ color: #FFFFFF;
+  font-family: "spectral", Sans-Serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 10px 0;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+@-webkit-keyframes fade-btn {
+  from {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-btn {
+  from {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.choices-btn:focus {
+ 
+  outline: none;
+  background: #4169E1;
+ color: #FFFFFF;
+  font-size: 0.9rem;
+}
+
+#chose-nightclub .choices-btn {
+    
+  background: #2E8B57;
+  color: #FFFFFF;
+}
+
+#chose-activity .choices-btn {
+  background: #B22222;
+  color: #FFFFFF;
+}
+
+#chose-activity .choices-btn:focus {
+  
+  background: #B22222;
+  color: #FFFFFF;
+}
+
+.container-tips-map {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #FFFFFF;
+}
+
+.info {
+  max-width: 350px;
+  text-align: justify;
+  font-size: 10px;
+  font-family: "spectral", sans-serif;
+  line-height: 1.3rem;
+  
+  margin: 20px 0;
+}
+
+.info-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  
+}
+
+.info-img img {
+  width: 350px;
+  height: 350px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 1px solid #000000;
+  margin-bottom: 10px;
+}
+
+.info-beach > .info-img > img {
+ border: 1px solid #000000;
+}
+
+.info-nightclub > .info-img > img {
+  border: 1px solid #000000;
+}
+
+.info-activities > .info-img > img {
+  border: 1px solid #000000;
+}
+
+.info-beach,
+.info-nightclub,
+.info-activities {
+  display: none;
+}
+
+.info-text {
+  color: #000000;
+  font-family: "spectral", Sans-Serif;
+  font-size: medium;
+}
+
+#map {
+  width: 500px;
+  height: 500px;
+  margin: 20px 0;
+}
