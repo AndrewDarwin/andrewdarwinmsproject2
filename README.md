@@ -44,7 +44,7 @@ I structured the layout and content in an easily readable way for the user - fir
 
 ### Skeleton
 
-Here below is a wireframe of the desktop version of my site
+Here below is a wireframe of the desktop version of Ibiza Life site
 
 ![](assets/images/wireframes.jpg) 
 
@@ -108,9 +108,13 @@ Contact contains a contact form, which requests the user’s name and email, and
 
 The site was tested across multiple browsers (Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers) and tested on a variety of devices (Desktop, Laptop, iPhone, iPad) to ensure compatibility and responsiveness. Friends reviewed the site to discuss any user experience issues.
 
-I used W3C Markup Validator and W3C CSS Validator Services (direct input on both) to validate the code to ensure there were no errors in the project. I also used JSHint, a JavaScript Code Quality Tool. They all passed without any errors or warnings, screenshots below;
+I used W3C Markup Validator, W3C CSS Validator Services and JSHint (direct input on all) to validate the code to ensure there were no errors in the project. They all passed without any errors, screenshots below;
 
-(screenshots here)
+![](assets/images/htmlvalidation.jpg) 
+
+![](assets/images/cssvalidation.jpg) 
+
+![](assets/images/jsvalidation.jpg) 
 
 ### Testing User Stories from User Experience (UX) Section
 
