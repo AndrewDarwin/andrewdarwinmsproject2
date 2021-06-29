@@ -309,12 +309,19 @@ body, html {
   margin: 20px 0;
 }
 
+/* --CONTACT-- */
+
+.contact { padding-bottom: 30px;
+    }
+
+.contact-heading {text-align: center;}
+
 /* --FOOTER-- */
 /* I used course content code to assist with the below */
 
 .social-links li a i {
     
-    padding-top: 15px;
+    padding-top: 30px;
     padding-bottom: 15px;
     padding-left: 110px;
     width: 30px;
