@@ -122,6 +122,10 @@ I used W3C Markup Validator, W3C CSS Validator Services and JSHint (direct input
 
 The home and about section give an introduction of Ibiza to the user, painting the picture of an idyllic Mediterranean island, whilst the beautiful photos of the island whet the user’s appetite for the next Section - Things To Do. 
 
+![](assets/images/test-home.jpg)
+
+![](assets/images/test-about.jpg)
+
 * I want to easily navigate through the site and find good content. 
 
 The site has been designed to be fluid and easy to navigate. At the top there is a clean navigation bar, each link describes what section of the site they will end up at clearly. On the Contact, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
@@ -129,6 +133,8 @@ The site has been designed to be fluid and easy to navigate. At the top there is
 * I want to discover some things to do on Ibiza
 
 The Things to Do section has several different activities for the user to do on the Island. This page responds to the users' actions, allowing them to engage with data, and altering the way the site displays the information to achieve their preferred goals - for example if the user clicks on either of the “nightsclubs”, “beaches” or “activities” they are presented with 4 different choices of each.
+
+![](assets/images/test-thingstodo.jpg)
 
 * I want to discover which beaches to visit 
 
@@ -144,7 +150,9 @@ Google Maps API is embed on the site to allow users to locate the various clubs,
 
 * I want to get in touch with Ibiza Life for more information about booking things like boat trips etc. 
 
-There is a contact form for the user to get in touch for more information. 
+There is a contact form for the user to get in touch for more information.
+
+![](assets/images/test-contact.jpg)
 
 ## Deployment
 
