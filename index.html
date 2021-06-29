@@ -6,23 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css">
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
-    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-    <script
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRsgWett8BdOGnJmCzvTPzp3lhHvh1iv4&callback=initMap"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-    <script src="assets/js/script.js"></script>
-    <script src="assets/js/sendEmail.js"></script>
-    <script src="assets/js/map.js"></script>
-    <script>
-      (function () {
-        emailjs.init("user_vKylJRype6mQAnOS7MisD");
-      })();
-    </script>
-
+    
     <title>Ibiza Life</title>
 
 
@@ -398,35 +382,32 @@
     <div class="row contact">
         <div class="col-2"></div>
         <div class="col-12 col-md-8">
-        
             <h1 class="col-12 contact-heading">Contact</h1>
-            
-
-
-            <form class="needs-validation">
+           
+            <form class="needs-validation" onsubmit="return sendMail(this);">
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <label for="firstName">Full name</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" name="name">
                         <div class="invalid-feedback">
                         Please enter your full name.
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <label for="email">Email </label>
-                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required="">
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com" required="" name="email">
                         <div class="invalid-feedback">
                             Please enter your email. 
                         </div>
                     </div>
                     <div class="col-12">
                         <label for="message">Message </label>
-                        <textarea class="form-control" id="message" required=""> </textarea>
+                        <textarea class="form-control" id="message" required="" name="message"></textarea>
                         <div class="invalid-feedback">
                             Please enter your message.
                         </div>      
                     </div>
-                
+                     <div id="feedback-email"></div>
                      <hr class="mb-4">
                     <div class="col-6 col-md-3">
                         <br>
@@ -471,6 +452,25 @@
   </div>
 
 </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRsgWett8BdOGnJmCzvTPzp3lhHvh1iv4&callback=initMap"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+      (function () {
+        emailjs.init("user_vKylJRype6mQAnOS7MisD");
+      })();
+    </script>
+    <script src="assets/js/sendEmail.js"></script>
+
+
 </body>
 </html>
 
