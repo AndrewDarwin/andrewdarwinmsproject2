@@ -32,7 +32,7 @@ Ibiza Life is an interactive front-end site who’s goal is to introduce the use
 
 ### Strategy
 
-My goal was to develop an appealing travel website that leaves an impression with its users which will mostly be tourists, and those wishing to travel to Ibiza to find great things to do on the island - to inspire them with nice images and advice. I aimed to have a nice layout and clean design - consistent in style and colour throughout. I also wanted the user to find accurate information on different subjects, and a contact form to request more information if needed. 
+My goal was to develop an appealing travel website that leaves an impression with its users which will mostly be tourists, and those wishing to travel to Ibiza to find great things to do on the island - to inspire them with nice images and advice. I aimed to have a nice layout and clean design - consistent in style and colour throughout. I also wanted the user to find accurate information on different subjects, and a contact form to request more information if needed. The site is designed to respond to the users' actions, allowing users to actively engage with data (specifically, in the Things To Do section), altering the way the site displays the information to achieve their preferred goals.
 
 ### Scope
 
@@ -54,7 +54,7 @@ As the website is based on a summer destination, I chose a nice and bright heade
 
 ## Features
 
-The site features a responsive navigation menu, and a footer with social media icons. The site is a single scrolling page, with 4 separate page areas, as described below;
+The site features a responsive navigation menu, and a footer with social media icons. The site follows the principles of UX design and presents a structured layout and navigation model. The site is a single scrolling page, with 4 separate page areas, as described below;
 
 ### Home
 
@@ -70,7 +70,7 @@ The Things to Do section has buttons showing different things to do, and also sh
 
 ### Contact
 
-Contact contains a contact form, which requests the user’s name and email, and a box to leave a message. The bottom of the form contains a Submit button. When the user submits their details, there’s a message that displays 'Thank you for your message, you will receive a reply soon.'
+Contact contains a contact form, which requests the user’s name and email, and a box to leave a message. The bottom of the form contains a Submit button. When the user submits their details, there’s a message that displays 'Thank you for your message, you will receive a reply soon.' If any information is missing, I have written code that handles empty or invalid input data. For example, if a particular field is missing, a pop up message on screen appears 'please fill in this field'.
 
 ### Features to consider implementing in the future
 
@@ -132,7 +132,7 @@ The site has been designed to be fluid and easy to navigate. At the top there is
 
 * I want to discover some things to do on Ibiza
 
-The Things to Do section has several different activities for the user to do on the Island. This page responds to the users' actions, allowing them to engage with data, and altering the way the site displays the information to achieve their preferred goals - for example if the user clicks on either of the “nightsclubs”, “beaches” or “activities” they are presented with 4 different choices of each.
+The Things to Do section has several different activities for the user to do on the Island. This page responds to the users' actions, allowing them to engage with data, and altering the way the site displays the information to achieve their preferred goals - for example if the user clicks on either of the “nightsclubs”, “beaches” or “activities” they are presented with 4 different choices of each. Users are able to interact with the site in their particular way, to achieve their personal goals and derive answers to their specific questions. This is front-end interactivity. For example, a user wanting to know the best beaches to go to can click on the beaches button in the Things To Do Section, and then choose a particular beach, with a photo and information about the beach, plus a location on the interactive google map alongside. The same can be true for users wanting to know which nightclubs and activities to go on the island.
 
 ![](assets/images/test-thingstodo.jpg)
 
