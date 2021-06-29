@@ -2,9 +2,9 @@
 
 ## Milestone Project 2 - Interactive Front-end Development 
 
-Website live link - 
+Website live link - https://andrewdarwin.github.io/andrewdarwinmsproject2/ 
 
-Github link - 
+Github link - https://github.com/AndrewDarwin/andrewdarwinmsproject2 
 
 ![](assets/images/mockup.jpg) 
 
@@ -64,7 +64,6 @@ Home features a hero image of a beach on a warm, sunny day. As well as the image
 
 About features a hero image of the beach club Ushuaïa, and more information about Ibiza, which leads nicely to the next section, Things To Do. 
 
-
 ### Things To Do
 
 The Things to Do section has buttons showing different things to do, and also showing each of their locations on the Google Maps API.
@@ -90,12 +89,19 @@ Contact contains a contact form, which requests the user’s name and email, and
 ### Frameworks, Libraries & Programs Used
 
 * Bootstrap (including jQuery) - to assist with the design and responsiveness of the site.
+
 * Font Awesome - for the social media icons in the footer
+
 * Gitpod - for coding and documenting in the terminal descriptive commit messages, and pushing to GitHub.
+
 * GitHub - to store the project after being pushed from Gitpod.
+
 * Balsamiq - to create the wireframes during the design process for README.
+
 * Google Maps JavaScript API - Interative Maps API.
+
 * EmailJS API - Send Emails directly with JavaScript.
+
 * jQuery - JavaScript library.
 
 ## Testing
