@@ -44,7 +44,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-weight: 500;
+  font-weight: 600;
    font-family: "spectral", Sans-Serif;
    font-size: 15px
 }
@@ -52,7 +52,7 @@ body, html {
 .lead {
   text-align: left;
   color: #000000;
-  font-weight: 400;
+  font-weight: 600;
    font-family: "spectral", Sans-Serif;
    
 }
@@ -77,9 +77,9 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-weight: 500;
-   font-family: "spectral", Sans-Serif;
-   font-size: 15px
+  font-weight: 600;
+  font-family: "spectral", Sans-Serif;
+  font-size: 15px
 }
 
 /*- THINGS TO DO -*/
