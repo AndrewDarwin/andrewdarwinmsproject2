@@ -44,7 +44,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-weight: 550;
+  font-weight: 500;
    font-family: "spectral", Sans-Serif;
    font-size: 15px
 }
@@ -77,7 +77,7 @@ body, html {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-weight: 550;
+  font-weight: 500;
    font-family: "spectral", Sans-Serif;
    font-size: 15px
 }
