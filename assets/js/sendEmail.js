@@ -9,7 +9,7 @@ function sendMail(contactForm) {
     .then(
         function(response) {
             console.log("SUCCESS", response);
-            document.getElementById('feedback-email').innerHTML = 'Thank you for your message, you will receive a reply soon.'
+            document.getElementById('feedback-email').innerHTML = 'Thank you for your message, you will receive a reply soon.';
             contactForm.reset();
         },
         function(error) {
