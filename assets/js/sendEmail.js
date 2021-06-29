@@ -3,12 +3,14 @@
 function sendMail(contactForm) {
     emailjs.send("gmail", "ibizalife", {
         "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "information_request": contactForm.projectsummary.value
+        "from_email": contactForm.email.value,
+        "information_request": contactForm.message.value
     })
     .then(
         function(response) {
             console.log("SUCCESS", response);
+            document.getElementById('feedback-email').innerHTML = 'Thank you for your contact, you should get an email soon.'
+            contactForm.reset();
         },
         function(error) {
             console.log("FAILED", error);
@@ -16,3 +18,4 @@ function sendMail(contactForm) {
     );
     return false;  
 }
+
