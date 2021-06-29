@@ -8,7 +8,7 @@ Github link - https://github.com/AndrewDarwin/andrewdarwinmsproject2
 
 ![](assets/images/mockup.jpg) 
 
-Ibiza Life is an interactive front-end site who’s goal is to introduce the user to the Balearic island of Ibiza, and offers recommendations on various things to do/go such as clubs, beaches and activities like hiking, boat trips and sunsets. The site is designed in HTML and CSS, and through the use of Javascript, the site calls on the Google Maps API to allow users to locate the various places. A contact form allows the user to request more information about any of the the places or activities on the site.
+Ibiza Life is an interactive front-end site who’s goal is to introduce the user to the Balearic island of Ibiza, and offers recommendations on various things to do/go such as clubs, beaches and activities like hiking, boat trips and sunsets. The site is designed in HTML and CSS, and through the use of Javascript, the site calls on the Google Maps API to allow users to locate the various places. A contact form allows the user to request more information about any of the places or activities on the site.
 
 # User Experience (UX)
 
@@ -50,7 +50,7 @@ Here below is a wireframe of the desktop version of Ibiza Life site
 
 ### Surface
 
-As the website is based on a summer destination, I chose a nice and bright header and nav colour blue - which represents the blue skies and waters of Ibiza. This is the same for the footer also. The colours are kept in harmony with the images - the hero images of the home and about sections are that of a nice beach, and a beach club with lots of colour and people enjoying themselves. Non-text elements have alt text attributes (or the equivalent (eg role=“img” aria-label=“”) to cater for the visually impaired. I chose Spectral as it offers a beautiful font, and believe it fits nicely with the site. 
+As the website is based on a summer destination, I chose a nice and bright header and nav with the colour blue - which represents the blue skies and waters of Ibiza. This is the same for the footer also. The colours are kept in harmony with the images - the hero images of the home and about sections are that of a nice beach, and a beach club with lots of colour and people enjoying themselves. Non-text elements have alt text attributes (or the equivalent (eg role=“img” aria-label=“”) to cater for the visually impaired. I chose Spectral as it offers a beautiful font, and believe it fits nicely with the site. 
 
 ## Features
 
@@ -70,7 +70,7 @@ The Things to Do section has buttons showing different things to do, and also sh
 
 ### Contact
 
-Contact contains a contact form, which requests the user’s name and email, and a box to leave a request. The bottom of the form contains a Submit button. When the user submits their details, there’s a pop up modal that displays a “thank you” message.
+Contact contains a contact form, which requests the user’s name and email, and a box to leave a message. The bottom of the form contains a Submit button. When the user submits their details, there’s a message that displays 'Thank you for your message, you will receive a reply soon.'
 
 ### Features to consider implementing in the future
 
@@ -128,7 +128,7 @@ The home and about section give an introduction of Ibiza to the user, painting t
 
 * I want to easily navigate through the site and find good content. 
 
-The site has been designed to be fluid and easy to navigate. At the top there is a clean navigation bar, each link describes what section of the site they will end up at clearly. On the Contact, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
+The site has been designed to be fluid and easy to navigate. At the top there is a clean navigation bar, each link describes what section of the site they will end up at clearly. On the Contact, after a form response is submitted, the page displays a message 'Thank you for your message, you will receive a reply soon.'
 
 * I want to discover some things to do on Ibiza
 
@@ -186,8 +186,6 @@ https://getbootstrap.com/docs/4.0/components/navbar/
 
 https://getbootstrap.com/docs/4.3/layout/grid/
 
-https://getbootstrap.com/docs/4.4/components/card/
-
 https://getbootstrap.com/docs/5.0/forms/layout/
 
 I also used some other bootstrap related sites to aid me with my code;
@@ -208,7 +206,7 @@ I was inspired by, and used https://henriqueperoni.github.io/CI-MS2-Magic-Island
 
 ### Content
 
-All content was written by myself, except for 1 sentence in the About section, taken from the Ibiza wikipedia page - “An island in the Mediterranean Sea off the eastern coast of Spain, Ibiza is the third largest of the Balearic Islands.”
+All content was written by myself, except for 1 sentence in the About section, taken from the Ibiza wikipedia page - “An island off the eastern coast of Spain, Ibiza is the third largest of the Balearic Islands.”
 
 ### Media
 
