@@ -46,7 +46,7 @@ I structured the layout and content in an easily readable way for the user - fir
 
 Here below is a wireframe of the desktop version of my site
 
-Attach photo of Wireframes here
+![](assets/images/wireframes.jpg) 
 
 ### Surface
 
