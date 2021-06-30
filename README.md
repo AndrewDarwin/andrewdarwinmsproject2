@@ -6,7 +6,7 @@ Website live link - https://andrewdarwin.github.io/andrewdarwinmsproject2/
 
 Github link - https://github.com/AndrewDarwin/andrewdarwinmsproject2 
 
-![](assets/images/mockup.jpg) 
+![](assets/images/mockup2.jpg) 
 
 Ibiza Life is an interactive front-end site who’s goal is to introduce the user to the Balearic island of Ibiza, and offers recommendations on various things to do/go such as clubs, beaches and activities like hiking, boat trips and sunsets. The site is designed in HTML and CSS, and through the use of Javascript, the site calls on the Google Maps API to allow users to locate the various places. A contact form allows the user to request more information about any of the places or activities on the site.
 
@@ -122,9 +122,9 @@ I used W3C Markup Validator, W3C CSS Validator Services and JSHint (direct input
 
 The home and about section give an introduction of Ibiza to the user, painting the picture of an idyllic Mediterranean island, whilst the beautiful photos of the island whet the user’s appetite for the next Section - Things To Do. 
 
-![](assets/images/test-home.jpg)
+![](assets/images/test-home2.jpg)
 
-![](assets/images/test-about.jpg)
+![](assets/images/test-about2.jpg)
 
 * I want to easily navigate through the site and find good content. 
 
