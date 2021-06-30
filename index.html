@@ -56,27 +56,37 @@
 
 <!-- HOME -->
 <!-- I used https://www.w3schools.com/howto/howto_css_hero_image.asp to assist me with the code below -->
-
-<div class="hero-image" id="home">
-  <div class="hero-text">
-    <h2>Welcome to Ibiza Life!  </h2>
-    <p>Whether it is golden beaches with beautiful blue waters, clubs the size of cathedrals and some of the best sunsets in the world, Ibiza has it all. </p>
-    <p>Together with gorgeous coastlines, boat trips and hiking opportunities, you have the recipe for one of the most appealing and diverse islands in the world. </p>
-  </div>
+<div class="container-fluid">
+    <div class="row hero-image" id="home">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div class="hero-text">
+                <h2>Welcome to Ibiza Life!  </h2>
+                <p>Whether it is golden beaches with beautiful blue waters, clubs the size of cathedrals and some of the best sunsets in the world, Ibiza has it all. </p>
+                <p>Together with gorgeous coastlines, boat trips and hiking opportunities, you have the recipe for one of the most appealing and diverse islands in the world. </p>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
 </div>
+
 
 <!-- ABOUT -->
 <!-- I used https://www.w3schools.com/howto/howto_css_hero_image.asp to assist me with the code below -->
-
-<div class="photo-about" id="about">
-  <div class="about-text">
-    <h2>An island off the eastern coast of Spain, Ibiza is the third largest of the Balearic Islands.  </h2>
-    <p>Ibiza is well known for its association with nightlife, electronic dance music and for the summer club scene, all of which attract large numbers of tourists. </p>
-    <p>Although it has some of the best nightclubs in the world, Ibiza is diverse, and there are plenty of things to enjoy whilst on the island. 
- </p>
-  </div>
-</div>         
-
+<div class="container-fluid">
+    <div class="row photo-about hero-image " id="about">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div class="hero-text about-text">
+                <h2>An island off the eastern coast of Spain, Ibiza is the third largest of the Balearic Islands.  </h2>
+                <p>Ibiza is well known for its association with nightlife, electronic dance music and for the summer club scene, all of which attract large numbers of tourists. </p>
+                <p>Although it has some of the best nightclubs in the world, Ibiza is diverse, and there are plenty of things to enjoy whilst on the island. 
+                </p>
+            </div>
+        </div>
+        <div class="col-1"></div>     
+    </div>
+</div>
 <!-- THINGS TO DO -->
 <!-- I was inspired by, and used https://henriqueperoni.github.io/CI-MS2-Magic-Island/ Things To Do Section to assist me in creating the code below -->
 
@@ -454,6 +464,8 @@
 </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
     <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
     <script src="assets/js/map.js"></script>
