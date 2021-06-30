@@ -8,7 +8,7 @@ Github link - https://github.com/AndrewDarwin/andrewdarwinmsproject2
 
 ![](assets/images/mockup2.jpg) 
 
-Ibiza Life is an interactive front-end site who’s goal is to introduce the user to the Balearic island of Ibiza, and offers recommendations on various things to do/go such as clubs, beaches and activities like hiking, boat trips and sunsets. The site is designed in HTML and CSS, and through the use of Javascript, the site calls on the Google Maps API to allow users to locate the various places. A contact form allows the user to request more information about any of the places or activities on the site.
+Ibiza Life is an interactive front-end site who’s goal is to introduce the user to the Balearic island of Ibiza, and offers recommendations on various things to do/go such as clubs, beaches and activities like hiking, boat trips and sunsets. The site is designed in HTML, CSS and Javascript, with the site calling on the Google Maps API to allow users to locate the various places. A contact form allows the user to request more information about any of the places or activities on the site.
 
 # User Experience (UX)
 
@@ -40,7 +40,7 @@ Ibiza Life is contained in a single page for ease of use. The website has a Goog
 
 ### Structure
 
-I structured the layout and content in an easily readable way for the user - firstly with a main navigation menu, followed by an introduction to Ibiza - written content provided on top of a hero image. Next, the about section provides more information about Ibiza alongside an image of a beach club, and the various opportunities on the island for tourists, which leads nicely to the Things to Do section, where interactive buttons and Google Maps provide more specific information and locations. Each following section adds to the information on the previous. Next, there is a contact form that the users can send a message requesting more information if needed. 
+I structured the layout and content in an easily readable way for the user - firstly with a main navigation menu, followed by an introduction to Ibiza - written content provided on top of a hero image. Next, the about section provides more information about Ibiza alongside a hero image background of a beach club, and the various opportunities on the island for tourists, which leads nicely to the Things to Do section, where interactive buttons and Google Maps provide more specific information and locations. Each following section adds to the information on the previous. Next, there is a contact form that the users can send a message requesting more information if needed. 
 
 ### Skeleton
 
@@ -50,7 +50,7 @@ Here below is a wireframe of the desktop version of Ibiza Life site
 
 ### Surface
 
-As the website is based on a summer destination, I chose a nice and bright header and nav with the colour blue - which represents the blue skies and waters of Ibiza. This is the same for the footer also. The colours are kept in harmony with the images - the hero images of the home and about sections are that of a nice beach, and a beach club with lots of colour and people enjoying themselves. Non-text elements have alt text attributes (or the equivalent (eg role=“img” aria-label=“”) to cater for the visually impaired. I chose Spectral as it offers a beautiful font, and believe it fits nicely with the site. 
+As the website is based on a summer destination, I chose a nice and bright header and nav with the colour blue - which represents the blue skies and waters of Ibiza. This is the same for the footer also. The colours are kept in harmony with the images - the hero image backgrounds of the home and about sections are that of a nice beach, and a beach club with lots of colour. The background colours holidng the text represent blue and yellow for the sea and sun respectively. Non-text elements have alt text attributes (or the equivalent (eg role=“img” aria-label=“”) to cater for the visually impaired. I chose Spectral as it offers a beautiful font, and believe it fits nicely with the site. 
 
 ## Features
 
